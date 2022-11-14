@@ -1,0 +1,25 @@
+*.orig
+*.pyc
+*.swp
+.env
+
+/.cargo_home/
+/.idea/
+/.vscode/
+
+
+# Files that help ensure VSCode can work but we don't want checked into the
+# repo
+/node_modules
+/tsconfig.json
+
+# compiled wasm files
+std/wasi/testdata/snapshot_preview1/
+
+# generated v8 coverage files
+cli/tests/.test_coverage/
+
+# MacOS generated files
+.DS_Store
+.DS_Store?
+
