@@ -1,11 +1,11 @@
 # Reto DenoJS - HTTP Requests - Bases de Datos
 
 ## Instrucciones
-Instalar y configurar DenoJS en el equipo de trabajo.
-Revisar: [Documentación Oficial](https://deno.land/manual@v1.28.0/introduction) \
+Instalar y configurar DenoJS en el equipo de trabajo. \
+Revisar: [Documentación Oficial](https://deno.land/manual@v1.28.0/introduction)
 
-Tener instalado Typescript de antemano. \
-Configurar IDE o editor de texto para trabajar con DenoJS. \
+Tener instalado Typescript de antemano.
+Configurar IDE o editor de texto para trabajar con DenoJS.
 
 
 
