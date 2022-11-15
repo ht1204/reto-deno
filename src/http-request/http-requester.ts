@@ -7,6 +7,7 @@ export const retrieverInitData = async () => {
     });
 
     const { credentials: redis_credentials } = await response.json();
+    console.log('redis_credentials: ', redis_credentials);
     return redis_credentials;
 }
 

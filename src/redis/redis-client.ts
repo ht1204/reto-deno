@@ -14,7 +14,7 @@ export const redisMiddleware = async ({
     password
 }: redisClientProps) => {
 
-    let mongoDBCredentials = {
+    let mongo_credentials = {
         mongoHost: '',
         mongoUsername: '',
         mongoPassword: '',
@@ -42,7 +42,7 @@ export const redisMiddleware = async ({
         const userForMongo: string = mongoUserName || 'mongo.user';
         const passwordForMongo: string = mongoPassword || 'mongo.pass';
 
-        mongoDBCredentials = {
+        mongo_credentials = {
             mongoHost: hostForMongo,
             mongoUsername: userForMongo,
             mongoPassword: passwordForMongo,
@@ -52,8 +52,8 @@ export const redisMiddleware = async ({
         console.log("Error: ", error);
         ac.abort();
     }
-    console.log('mongoDBCredentials: ', mongoDBCredentials);
+    console.log('mongo_credentials: ', mongo_credentials);
 
-    return mongoDBCredentials;
+    return mongo_credentials;
 
 }
