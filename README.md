@@ -10,7 +10,7 @@ Configurar IDE o editor de texto para trabajar con DenoJS.
 
 
 ## Correr Aplicación
-- Arrancar la aplicación en modo producción:  ```npm run start ```
+- Arrancar la aplicación en modo producción:  ```deno run start ```
 - El servidor se apaga una vez logra el objetivo de decodificar el código secreto. 
 
 ## Salida de sistema
